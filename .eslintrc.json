@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
   },
   "settings": {
     "react": {
@@ -24,7 +25,8 @@
   },
   "plugins": [
     "react",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "jest"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
